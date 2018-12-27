@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+	font-family: "Lato", sans-serif;
+}
+
+.navbar-default {
+	border: 0px;
+	background-color: rgba(0,0,0,0.33);
+	border-radius: 0px;
+}
+
+#white-brand, #white-about, #white-portfolio, #white-resume, #white-contact {
+	color: white;
+}
+
+#white-brand:hover, #white-about:hover, #white-portfolio:hover, 
+#white-resume:hover, #white-contact:hover {
+	color: #888;
+}
+
+#white-brand-text {
+	border: 2px solid white;
+	padding: 8px;
+}
+
+#white-brand-text:hover {
+	border: 2px solid #888;
+}
+
+.container {
+	width: 90%;
+}
+
+.firstSection {
+	background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0)), url("https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=45fbe9046945ce711c299b8c6d26d998&auto=format&fit=crop&w=1931&q=80");
+	background-size: cover;
+	background-repeat: no-repeat no-repeat;
+	height: 90vh;
+	min-height: 650px;
+}
+
+.myTitle {
+	position: relative;
+	top: 206px;
+	text-align: center;
+	color: rgb(248, 248, 248);
+}
+
+.myTitle h1 {
+	font-size: 96px;
+}
+
+.myTitle h2 {
+	margin-top: 60px;
+}
+
+.bullet {
+	margin: 0 40px;
+}
+
+.secondSection {
+	/*height: 600px;*/
+	/* Leaving this here for no good reason. */
+	/* You can delete it if you wish... */
+	/* ... and maybe you should. */
+	background-color: #eee;
+}
+
+ion-icon {
+	width: 100%;
+	height: 70px;
+	text-align: center;
+}
+
+.it-div, .cloud-div, .class-div {
+	font-size: 16px;
+	line-height: 200%;
+	border: 3px solid #333;
+	border-radius: 10px;
+	margin-top: 40px;
+	padding: 40px;
+	margin-bottom: 40px;
+}
+
+.it-div > p, .cloud-div > p,
+.class-div > p {
+	text-align: justify;
+	margin: 5%;
+}
+
+div[class="row"] > div {
+	padding: 40px
+}
+
+.thirdSection { 
+	/* Same rules as firstSection div, but for the thirdSection*/
+	background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0)), url("https://images.unsplash.com/photo-1513916711338-95cb6d164633?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3900&q=80");
+	background-size: cover;
+	background-repeat: no-repeat no-repeat;
+	height: 120vh;
+	min-height: 650px;
+}
+
+.footer-icon {
+	padding-top: 40vh;
+}
+
+a > ion-icon {
+	color: #ffffffcc;
+
+}
+
+a > ion-icon:hover {
+	color: #777;
+}
